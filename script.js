@@ -303,6 +303,24 @@ for (let i = tableinverse.length - 1; i >= 0; i--) {
   console.log(tableinverse[i]) ;
 }
 
+// defficile
+function trouverMax(tableau) {
+    let max = [0];
+    for (let i = 0; i < tableau.length; i++) {
+      if (max > tableau[i]) {
+        console.log(max)
+      } else {
+        max = tableau[i];
+        console.log(max)
+      }
+    }
+    return max;
+  }
+
+
+
+
+
  
 
 
