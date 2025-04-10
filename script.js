@@ -260,4 +260,67 @@
     console.log(t[i]) ;
  }
 
+ 
+
+// moyens 
+function sommeTableau(tableau) {
+    let total = 0;
+    for (let i = 0; i < tableau.length; i++) {
+      total += tableau[i];
+    }
+    return total / tableau.length;
+  }
+  
+  let tablee = [2, 2, 4,5,8];
+  console.log(sommeTableau(tablee));
+
+  let a = 10;
+let i = 0;
+do {
+  console.log(i);
+  i++;
+} while (i <= a);
+
+let arrayp = [];
+let arrayimp = [];
+
+for (let i = 0; i < 20; i++) {
+  if (i % 2 === 0) {
+    arrayp.push(i);
+  } else {
+    arrayimp.push(i);
+  }
+}
+
+console.log(arrayp); 
+console.log(arrayimp);
+
+
+
+let tableinverse = [18, 19, 20]; 
+
+for (let i = tableinverse.length - 1; i >= 0; i--) {
+  console.log(tableinverse[i]) ;
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
