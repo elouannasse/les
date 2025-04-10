@@ -247,3 +247,17 @@
 
 // let ann=2024
 // console.log(bissextile(ann))
+
+// jour 4
+
+// facile
+
+
+ let t = [1,2,3,4,5] ; 
+ console.log(t[2]) ;
+ console.log(t[3]) ;
+ for(let i = 0 ; i< t.length ;i++){
+    console.log(t[i]) ;
+ }
+
+
