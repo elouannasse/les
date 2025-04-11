@@ -95,7 +95,7 @@ for (let i = 0; i < triertable.length; i++) {
     let swap;
     if (triertable[j + 1] < triertable[j]) {
       swap = triertable[j];
-      triertable[j] = triertable[j + 1];
+      triertable[j] = triertable[j + 1]; 
       triertable[j + 1] = swap;
     }
   }
@@ -147,7 +147,7 @@ if (tabledoblon[i]===tabledoblon[i+1]) {
 }
     
 }
-console.log(tabledoblon)
+console.log(tabledoblon) ;
 
 
 
