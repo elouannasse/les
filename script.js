@@ -335,3 +335,16 @@ for(let i = 0 ; i < array.length;i++){
 }
 
 console.log(plusQueDix);
+
+
+let tabledoblon=[1,2,2,3] ;
+
+for (let i = 0; i < tabledoblon.length; i++) {
+
+if (tabledoblon[i]===tabledoblon[i+1]) {
+
+    tabledoblon.splice(i+1,1)
+}
+    
+}
+console.log(tabledoblon) ;
